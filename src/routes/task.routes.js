@@ -9,7 +9,7 @@ const router = Router()
 router.route("/add").post(verifyJWT,addTask)
 router.route("/delete/:id").delete(verifyJWT,deleteTask)
 router.route("/update/:id").patch(verifyJWT,updateTask)
-router.route("/getAllTasks").get(verifyJWT,getAllTasks)
+router.route("/getAllTasks").get(verifyJWT, getAllTasks)
 
 
 
