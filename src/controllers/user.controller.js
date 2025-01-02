@@ -102,7 +102,7 @@ const loginUser = asyncHandler(async(req,res) => {
         httpOnly: true,
         secure: true,
         sameSite: 'None',
-        partitioned: true,
+        
 
     }
 
@@ -136,8 +136,7 @@ const logoutUser = asyncHandler(async (req, res) => {
         httpOnly: true,
         secure: true,
         sameSite: 'None',
-        partitioned: true,
-
+        
     }
 
     return res
